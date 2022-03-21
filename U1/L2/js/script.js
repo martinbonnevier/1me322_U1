@@ -59,12 +59,12 @@ function addFruits() {
 // Get img url from user input
 function getUrl(nr) {
   switch (nr) {
-    case 1: url = "/img/apple.png"; break;
-    case 2: url = "/img/banana.png"; break;
-    case 3: url = "/img/orange.png"; break;
-    case 4: url = "/img/pear.png"; break;
-    case 5: url = "/img/pineapple.png"; break;
-    default: url = "/img/nofruit.png"; break;
+    case 1: url = "./img/apple.png"; break;
+    case 2: url = "./img/banana.png"; break;
+    case 3: url = "./img/orange.png"; break;
+    case 4: url = "./img/pear.png"; break;
+    case 5: url = "./img/pineapple.png"; break;
+    default: url = "./img/nofruit.png"; break;
   }
   return url;
 }
