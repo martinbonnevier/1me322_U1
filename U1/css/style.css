@@ -12,3 +12,9 @@ body{
   width: 100px;
   padding: 0%;
 }
+@media only screen and (max-width: 600px) {
+  body{
+    height: 100hv;
+  }
+  
+}
