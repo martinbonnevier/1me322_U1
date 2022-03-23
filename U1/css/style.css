@@ -12,7 +12,7 @@ body{
   width: 100px;
   padding: 0%;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   body{
     height: 100hv;
   }
